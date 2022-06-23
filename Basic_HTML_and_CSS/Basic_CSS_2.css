@@ -1,0 +1,10 @@
+p {
+	color: green;
+	back-ground: blue;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	text-shadow: 2px 2px red;
+}
