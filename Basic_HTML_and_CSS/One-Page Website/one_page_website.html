@@ -3,6 +3,9 @@
     <head>
         <title>Oregon Mountain Bike Trails | Group</title>
         <meta charset="utf-8">
+		<script src="JS/one_page_website.js" defer></script>
+		<link rel="stylesheet" href="./">
+
     </head>
     <body>
 	
@@ -35,9 +38,9 @@
 				<div>
 				
 			<!-- PHOTO CONTAINER 1 -->
-			<div>
-				 <div> 
-				     <img src="thumbnail_1.png" alt="Lake View">
+			<div class="row">
+				 <div class="column"> 
+				     <img src="thumbnail_1.png" alt="Lake View" onclick="openModal();currentSlide(1)" class="hover-shadow">
 					 <div>
 					     <h3>Click to Enlarge</h3>
 						 <p>We have several spaces left in our groups to join us on a trail!</p>
@@ -48,9 +51,9 @@
 			
 			
 			<!-- PHOTO CONTAINER 2 -->
-			<div>
-				 <div> 
-				     <img src="thumbnail_2.png" alt="Track view">
+			<div class="row">
+				<div class="column"> 
+				     <img src="thumbnail_2.png" alt="Track view" onclick="openModal();currentSlide(2)" class="hover-shadow">
 					 <div>
 					     <h3>Click to Enlarge</h3>
 						 <p>We have several spaces left in our groups to join us on a trail!</p>
@@ -60,9 +63,9 @@
 			<!--END PHOTO CONTAINER 2 -->
 			
 			<!-- PHOTO CONTAINER 3 -->
-			<div>
-				 <div> 
-				     <img src="thumbnail_3.png" alt="Oregon Timber Trail">
+			<div class="row">
+				<div class="column">  
+				     <img src="thumbnail_3.png" alt="Oregon Timber Trail" onclick="openModal();currentSlide(3)" class="hover-shadow">
 					 <div>
 					     <h3>Click to Enlarge</h3>
 						 <p>We have several spaces left in our groups to join us on a trail!</p>
@@ -72,9 +75,9 @@
 			<!--END PHOTO CONTAINER 3 -->
 			
 			<!-- PHOTO CONTAINER 4 -->
-			<div>
-				 <div> 
-				     <img src="thumbnail_4.png" alt="High View">
+			<div class="row">
+				<div class="column">  
+				     <img src="thumbnail_4.png" alt="High View" onclick="openModal();currentSlide(4)" class="hover-shadow">
 					 <div>
 					     <h3>Click to Enlarge</h3>
 						 <p>We have several spaces left in our groups to join us on a trail!</p>
@@ -84,9 +87,9 @@
 			<!--END PHOTO CONTAINER 4 -->
 			
 			<!-- PHOTO CONTAINER 5 -->
-			<div>
-				 <div>
-                     <img src="thumbnail_5.png" alt="Mountain View">				 
+			<div class="row">
+				<div class="column"> 
+                     <img src="thumbnail_5.png" alt="Mountain View" onclick="openModal();currentSlide(5)" class="hover-shadow">				 
 					 <div>
 					     <h3>Click to Enlarge</h3>
 						 <p>We have several spaces left in our groups to join us on a trail!</p>
@@ -96,9 +99,9 @@
 			<!--END PHOTO CONTAINER 5 -->
 			
 			<!-- PHOTO CONTAINER 6 -->
-			<div>
-				 <div>
-                     <img src="thumbnail_6.png" alt="Electronic Bike">				 
+			<div class="row">
+				<div class="column"> 
+                     <img src="thumbnail_6.png" alt="Electronic Bike" onclick="openModal();currentSlide(6)" class="hover-shadow">				 
 					 <div>
 					     <h3>Click to Enlarge</h3>
 						 <p>We have several spaces left in our groups to join us on a trail!</p>
@@ -108,9 +111,9 @@
 			<!--END PHOTO CONTAINER 6 -->
 			
 			<!-- PHOTO CONTAINER 7 -->
-			<div>
-				 <div> 
-				     <img src="thumbnail_7.png" alt="Trail View">
+			<div class="row">
+				<div class="column"> 
+				     <img src="thumbnail_7.png" alt="Trail View" onclick="openModal();currentSlide(7)" class="hover-shadow">
 					 <div>
 					     <h3>Click to Enlarge</h3>
 						 <p>We have several spaces left in our groups to join us on a trail!</p>
@@ -120,9 +123,9 @@
 			<!--END PHOTO CONTAINER 7 -->
 			
 			<!-- PHOTO CONTAINER 8 -->
-			<div>
-				 <div> 
-				     <img src="thumbnail_8.png" alt="In the Woods">
+			<div class="row">
+				<div class="column">  
+				     <img src="thumbnail_8.png" alt="In the Woods" onclick="openModal();currentSlide(8)" class="hover-shadow">
 					 <div>
 					     <h3>Click to Enlarge</h3>
 						 <p>We have several spaces left in our groups to join us on a trail!</p>
@@ -132,9 +135,9 @@
 			<!--END PHOTO CONTAINER 8 -->
 			
 			<!-- PHOTO CONTAINER 9 -->
-			<div>
-				 <div> 
-				     <img src="thumbnail_9.png" alt="Mountain Trail View">
+			<div class="row">
+				<div class="column"> 
+				     <img src="thumbnail_9.png" alt="Mountain Trail View" onclick="openModal();currentSlide(9)" class="hover-shadow">
 					 <div>
 					     <h3>Click to Enlarge</h3>
 						 <p>We have several spaces left in our groups to join us on a trail!</p>
@@ -146,6 +149,104 @@
 			    </div>
 			</div>
 		</section>
+
+		<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 9</div>
+		<img src="thumbnail_1.png" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 9</div>
+		<img src="thumbnail_2.png" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 9</div>
+		<img src="thumbnail_3.png" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">4 / 9</div>
+		<img src="thumbnail_4.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">5 / 9</div>
+		<img src="thumbnail_5.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">6 / 9</div>
+		<img src="thumbnail_6.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">7 / 9</div>
+		<img src="thumbnail_7.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">8 / 9</div>
+		<img src="thumbnail_8.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">9 / 9</div>
+		<img src="thumbnail_9.png" style="width:100%">
+	  </div>
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo" src="thumbnail_1.png" onclick="currentSlide(1)" alt="Nature">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="thumbnail_2.png" onclick="currentSlide(2)" alt="Snow">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="thumbnail_3.png" onclick="currentSlide(3)" alt="Mountains">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="thumbnail_4.png" onclick="currentSlide(4)" alt="Lights">
+	  </div>
+
+	  <div class="column">
+		<img class="demo" src="thumbnail_5.png" onclick="currentSlide(5)" alt="Mountains">
+	  </div>
+
+	  <div class="column">
+		<img class="demo" src="thumbnail_6.png" onclick="currentSlide(6)" alt="Mountains">
+	  </div>
+
+	  <div class="column">
+		<img class="demo" src="thumbnail_7.png" onclick="currentSlide(7)" alt="Mountains">
+	  </div>
+
+	  <div class="column">
+		<img class="demo" src="thumbnail_8.png" onclick="currentSlide(8)" alt="Mountains">
+	  </div>
+
+	  <div class="column">
+		<img class="demo" src="thumbnail_9.png" onclick="currentSlide(9)" alt="Mountains">
+	  </div>
+	</div>
+  </div>
 		<!-- END GALLERY -->
 		
 		<!-- RSVP -->
@@ -195,5 +296,4 @@
 	</body>
 </html>
 	
-    </body>
-</html>
+ 
