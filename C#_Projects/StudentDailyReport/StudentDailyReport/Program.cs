@@ -49,10 +49,12 @@ namespace StudentDailyReport
             Console.Read();
 
             Console.WriteLine("Were there any positive experiences you’d like to share? Please give specifics");
+            string posExp = Console.ReadLine();
             Console.ReadLine();
             Console.Read();
 
             Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific");
+            string anyFeed = Console.ReadLine();
             Console.ReadLine();
             Console.Read();
 
