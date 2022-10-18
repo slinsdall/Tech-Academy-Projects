@@ -44,7 +44,7 @@ namespace IncomeComparison
 
             Console.WriteLine("Does Person 1 make more money than Person 2?");
             Console.ReadLine();
-            bool TrueOrFalse = salaryTotal < AnnualSalary;
+            bool TrueOrFalse = salaryTotal > AnnualSalary;
             Console.WriteLine(TrueOrFalse);
             Console.ReadLine();
 
