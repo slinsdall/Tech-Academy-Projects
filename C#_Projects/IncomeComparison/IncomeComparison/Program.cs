@@ -27,24 +27,24 @@ namespace IncomeComparison
             double HRperWeek = Convert.ToDouble(Console.ReadLine());
             Console.ReadLine();
 
-            double salaryTotal = HrRate * HRperWk * 52;
+ 
 
             Console.WriteLine("Annual salary of Person 1: ");
-            double SalaryPersonOne = Convert.ToDouble(Console.ReadLine());
+            double salaryTotal = HrRate * HRperWk * 52;
             Console.WriteLine(salaryTotal);
             Console.ReadLine();
 
-            double AnnualSalary = HourRate * HRperWeek * 52;
-
+   
             Console.WriteLine("Annual salary of Person 2: ");
-            double SalaryPersonTwo = Convert.ToDouble(Console.ReadLine());
+            double AnnualSalary = HourRate * HRperWeek * 52;
             Console.WriteLine(AnnualSalary);
             Console.ReadLine();
 
-            bool TrueOrFalse = SalaryPersonOne < SalaryPersonTwo;
+            
 
             Console.WriteLine("Does Person 1 make more money than Person 2?");
             Console.ReadLine();
+            bool TrueOrFalse = salaryTotal < AnnualSalary;
             Console.WriteLine(TrueOrFalse);
             Console.ReadLine();
 
