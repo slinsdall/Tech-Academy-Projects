@@ -15,29 +15,25 @@ namespace CarInsurance
 
             Console.WriteLine("What is your age?");
             int Age = Convert.ToInt32(Console.ReadLine()); //This will save the data inout
-            
+
 
             Console.WriteLine("Have you ever had a DUI? \nPlease answer true or false");
-            string DUI = Console.ReadLine();
-            
+            bool DUI = Convert.ToBoolean(Console.ReadLine());
+
 
             Console.WriteLine("How many speeding tickets do you have?");
             int Tickets = Convert.ToInt32(Console.ReadLine());
 
-            
-            
+            bool Qualified = Age >= 15 && DUI == false && Tickets <= 3;
+
             Console.WriteLine("Qualified?");
-            bool qualifed = Convert.ToBoolean(Console.ReadLine());
-            if (Age = < 15 && DUI = false && Tickets > 3)
+            Console.ReadLine();
+            Qualified = Convert.ToBoolean(Console.ReadLine());
+            if (Qualified)
             {
-                return true;
+                Console.WriteLine("True");
+                Console.ReadLine();
             }
-
-            
-
-
-
-
 
 
         }
