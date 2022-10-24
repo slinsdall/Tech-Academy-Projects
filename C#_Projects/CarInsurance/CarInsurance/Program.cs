@@ -28,9 +28,14 @@ namespace CarInsurance
 
             Console.WriteLine("Qualified?");
             Console.ReadLine();
-            if (Age >= 15 && DUI == false && Tickets <= 3);
+            if (Age >= 15 && DUI == false && Tickets <= 3)
             {
                 Console.WriteLine("True");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("False");
                 Console.ReadLine();
             }
           
