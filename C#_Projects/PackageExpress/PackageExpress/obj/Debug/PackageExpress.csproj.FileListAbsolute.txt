@@ -1,0 +1,7 @@
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PackageExpress\PackageExpress\bin\Debug\PackageExpress.exe.config
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PackageExpress\PackageExpress\bin\Debug\PackageExpress.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PackageExpress\PackageExpress\bin\Debug\PackageExpress.pdb
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PackageExpress\PackageExpress\obj\Debug\PackageExpress.csproj.AssemblyReference.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PackageExpress\PackageExpress\obj\Debug\PackageExpress.csproj.CoreCompileInputs.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PackageExpress\PackageExpress\obj\Debug\PackageExpress.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PackageExpress\PackageExpress\obj\Debug\PackageExpress.pdb
