@@ -28,7 +28,7 @@ namespace CarInsurance
 
             Console.WriteLine("Qualified?");
             Console.ReadLine();
-            if (Age >= 15 && DUI == false && Tickets <= 3) // This will specify the qualification points
+            if (Age > 15 && DUI == false && Tickets <= 3) // This will specify the qualification points
             {
                 Console.WriteLine("True");//If the qualification specifities are met it will show true
                 Console.ReadLine();
