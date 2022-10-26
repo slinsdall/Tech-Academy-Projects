@@ -10,40 +10,55 @@ namespace Step229
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your name?");
-            Console.ReadLine();
+            bool qualify = false;
+           
 
-            Console.WriteLine("What is your age?");
-            int age = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Do you have a driving license? \nPlease answer True or False");
-            bool license = Convert.ToBoolean(Console.ReadLine());
-
-            Console.WriteLine("How many points do you have on your license?");
-            int points = Convert.ToInt32(Console.ReadLine());
-
-            bool qualify = age > 17 && license == true && points <= 5;
 
             do
             {
-               
-                
-                Console.WriteLine("Do you have your own car? \n Please answer True or False");
-                bool vehicle = Convert.ToBoolean(Console.ReadLine());
-                break;
+                Console.WriteLine("What is your name?");
+                Console.ReadLine();
 
-                Console.WriteLine("Do you have car insurance?");
-                string insurance = Convert.ToString(Console.ReadLine());
-                break;
+                Console.WriteLine("What is your age?");
+                int age = Convert.ToInt32(Console.ReadLine());
 
-                
+                Console.WriteLine("Do you have a driving license? \nPlease answer True or False");
+                bool license = Convert.ToBoolean(Console.ReadLine());
+
+                Console.WriteLine("How many points do you have on your license?");
+                int points = Convert.ToInt32(Console.ReadLine());
+
+                if (age > 17 && license == true && points <= 5)
+                {
+
+                    Console.WriteLine("Congratualtions you qualify!");
+                    qualify = true;
+
+                }
+                else
+                {
+                    Console.WriteLine("Sorry, you do not qualify.");
+                }
+
+
+
             }
-            while (qualify);
+            while (qualify == false);
             Console.Read();
+
+            int i = 0;
+
+            while(i < 10)
+            {
+                Console.WriteLine(i);
+                i++;
             }
-             
-                
-            
+
         }
     }
+}
+                
+            
+        
+    
 
