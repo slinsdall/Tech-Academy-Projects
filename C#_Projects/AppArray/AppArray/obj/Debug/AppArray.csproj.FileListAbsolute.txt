@@ -1,0 +1,7 @@
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\AppArray\AppArray\bin\Debug\AppArray.exe.config
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\AppArray\AppArray\bin\Debug\AppArray.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\AppArray\AppArray\bin\Debug\AppArray.pdb
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\AppArray\AppArray\obj\Debug\AppArray.csproj.AssemblyReference.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\AppArray\AppArray\obj\Debug\AppArray.csproj.CoreCompileInputs.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\AppArray\AppArray\obj\Debug\AppArray.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\AppArray\AppArray\obj\Debug\AppArray.pdb
