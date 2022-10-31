@@ -37,13 +37,14 @@ namespace SixPartAssignment
                     {
                         break;
                     }
-
+                    //Part 3
                 }
                     for (int k = 0; k <= 10; k++)//Add another loop where the comparison that’s used to determine whether to continue iterating the loop is a “<=” operator
                 {
                         Console.WriteLine(k);
                         Console.ReadLine();
                     }
+                    //Part 4
                 //List of strings that are unique.
                 List<string> cars = new List<string>() { "Subaru", "Toyota", "Dodge" };
                 
@@ -69,7 +70,7 @@ namespace SixPartAssignment
                     {
                         Console.WriteLine("Input is not in the list.");
                     }
-                    while(true)
+                    while(true) //Add code that stops the loop from executing once a match has been found
                     {
                         break;
                     }
