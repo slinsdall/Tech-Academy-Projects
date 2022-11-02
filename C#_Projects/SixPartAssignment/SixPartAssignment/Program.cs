@@ -12,7 +12,7 @@ namespace SixPartAssignment
         {
             //Assignment Part One
             // A one-dimensional array of strings
-            string[] fruit = { "Apple", "Strawberry", "Blueberry", "Banana" };
+            string[] fruit = { "Apple ", "Strawberry ", "Blueberry ", "Banana " };
 
             //User input text
             Console.WriteLine("Please add text: ");
@@ -21,7 +21,10 @@ namespace SixPartAssignment
             //A loop that iterates through each string and adds the user input
             for (int i = 0; i < fruit.Length; i++)
             {
-                Console.WriteLine(fruit[i] + added);//Prints off the arrays
+                fruit[i] = fruit[i] + added;
+                Console.WriteLine(fruit[i]);//Prints off the arrays
+
+            }
 
 
                 //Part 2
@@ -31,7 +34,7 @@ namespace SixPartAssignment
                 {
                     Console.WriteLine("Count = {0}.", count);
                     count++;
-                    Console.ReadLine();
+                    
 
                     if (count > 20)//Added if statement to break loop at certain number.
                     {
@@ -42,7 +45,7 @@ namespace SixPartAssignment
                 for (int k = 0; k <= 10; k++)//Add another loop where the comparison that’s used to determine whether to continue iterating the loop is a “<=” operator
                 {
                     Console.WriteLine(k);
-                    Console.ReadLine();
+                    
 
                     if (k < 50)
                     {
@@ -85,14 +88,14 @@ namespace SixPartAssignment
                 bool search = false;
                 for (int m = 0; m < states.Count; m++)
                 {
-                    Console.WriteLine(states[m]);
+                    
 
                     //Add code to the loop to check if the user put in text that isn't on the list and, if they did, tells the user their input is not on the list.
-                    if (search == states[m]) 
+                    if (selection == states[m]) 
                     {
                         search = true;
                         Console.WriteLine(m);
-                        break;
+                        
                     }
                 }
                 if (!search)
@@ -101,25 +104,30 @@ namespace SixPartAssignment
                 //Part 6
                 //Create a list of strings that has at least two identical strings in the list.
                 List<string> teams = new List<string>() { "Seahawkes", "Patriots", "49ers", "Seahawkes", "Giants", "49ers" };
+                List<string> seconds = new List<string>();
+
 
                 //foreach loop that evaluates each item in the list, and displays a message showing the string and whether or not it has already appeared in the list
-                foreach(string name in teams)
+                foreach (string name in teams)
                 {
-                    if (name == teams)
+                    if (seconds.Contains (name))
                     {
-                        Console.WriteLine(teams + "this item is unique");
+                        Console.WriteLine(name + " this item is a duplicate");
                     }
                     else
                     {
-                        Console.WriteLine(teams + "this item is a duplicate");
+                        Console.WriteLine(name + " this item is unique");
+                        seconds.Add(name);
                     }
                 }
-            }
 
-            Console.ReadLine();
-        }  
-            }
+                Console.ReadLine();
         }
+
+            
+    }  
+}
+        
         
         
     
