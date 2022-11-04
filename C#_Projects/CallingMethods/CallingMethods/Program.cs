@@ -11,8 +11,18 @@ namespace CallingMethods
         static void Main(string[] args)
         {
             Math math = new Math();
+            math add(Math);
 
-
+            foreach(Math math in math.Maths)
+            {
+                Console.WriteLine("Please pick a number: ");
+            }
+            Console.WriteLine(math.Maths.Count);
+            Console.ReadLine();
+        }
+        public static Math add(Math math)
+        {
+            List<Math> 
         }
     }
 }
