@@ -16,13 +16,11 @@ namespace CallingMethods
             foreach(Math math in math.Maths)
             {
                 Console.WriteLine("Please pick a number: ");
+                int selection = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine(math.Maths.Count);
             Console.ReadLine();
         }
-        public static Math add(Math math)
-        {
-            List<Math> 
-        }
+        
     }
 }

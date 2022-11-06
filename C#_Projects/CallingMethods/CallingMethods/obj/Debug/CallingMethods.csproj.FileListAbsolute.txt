@@ -1,0 +1,2 @@
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\CallingMethods\CallingMethods\obj\Debug\CallingMethods.csproj.AssemblyReference.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\CallingMethods\CallingMethods\obj\Debug\CallingMethods.csproj.CoreCompileInputs.cache
