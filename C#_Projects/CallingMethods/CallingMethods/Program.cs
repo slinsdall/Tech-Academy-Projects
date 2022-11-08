@@ -15,13 +15,13 @@ using System.Threading.Tasks;
                 Console.WriteLine("Please pick a number: ");
                 int selection = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine(Math.add(selection));
+                Console.WriteLine(maths.add(selection));
                 Console.ReadLine();
 
-                Console.WriteLine(Math.subtract(selection));
+                Console.WriteLine(maths.subtract(selection));
                 Console.ReadLine();
 
-                Console.WriteLine(Math.divide(selection));
+                Console.WriteLine(maths.divide(selection));
                 Console.ReadLine();
             
         }
