@@ -7,15 +7,24 @@ using System.Threading.Tasks;
 
     class Math
     {
+       
+                public int add(int X)
+                {
+                    int result = X + 7;
+                    return result;
+                  
+                }
+                public int subtract(int L)
+                {
+                    int total = L - 3;
+                    return total;
+                }
+                public int divide(int F)
+                { 
+                    int division = F / 4;
+                    return division;
+                }
         
-                    int total1 = Convert.ToInt32(Console.ReadLine());
-                }
-                public int divide(Math math) 
-                 
-                
-                    int division1 =Convert.ToInt32(Console.ReadLine());
-                }
-        }
 
     }       
     
