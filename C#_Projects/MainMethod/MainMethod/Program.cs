@@ -10,6 +10,20 @@ namespace MainMethod
     {
         static void Main(string[] args)
         {
+            Method method = new Method();
+
+            Console.WriteLine("Please type a number: ");
+            int input = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(method.multiply(input));
+            Console.ReadLine();
+
+            Console.WriteLine("Please type a decimal number: ");
+            decimal selection = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine(method.add(input));
+            Console.ReadLine();
+
 
         }
     }
