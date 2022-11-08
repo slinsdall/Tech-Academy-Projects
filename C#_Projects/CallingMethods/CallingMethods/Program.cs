@@ -5,27 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Maths maths = new Maths();
+                Math maths = new Math();
+        
+            
+                Console.WriteLine("Please pick a number: ");
+                int selection = Convert.ToInt32(Console.ReadLine());
 
+                Console.WriteLine(Math.add(selection));
+                Console.ReadLine();
 
-        foreach (Math math in math.Maths)
-        {
-            Console.WriteLine("Please pick a number: ");
-            int selection = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(Math.subtract(selection));
+                Console.ReadLine();
 
-            Console.WriteLine(math.add(selection));
-            Console.ReadLine();
-
-            Console.WriteLine(math.subtract(selection));
-            Console.ReadLine();
-
-            Console.WriteLine(math.divide(selection));
-            Console.ReadLine();
-        }
+                Console.WriteLine(Math.divide(selection));
+                Console.ReadLine();
+            
         }
         
     }
