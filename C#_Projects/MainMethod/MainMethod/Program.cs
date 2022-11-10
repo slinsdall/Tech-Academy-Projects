@@ -24,6 +24,12 @@ namespace MainMethod
             Console.WriteLine(method.add(input));
             Console.ReadLine();
 
+            Console.WriteLine("Please type a number by the word: ");
+            int typed = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(method.subtract(typed));
+            Console.ReadLine();
+
 
         }
     }

@@ -13,14 +13,14 @@ namespace MainMethod
             int result = E * 13;
             return result;
         }
-        public decimal add(int D)
+        public int multiply(Double D)
         {
-            decimal result = D + 4;
+            int result = Convert.ToInt32(D + 4);
             return result;
         }
-        public int subtract(int S)
+        public int multiply(string S)
         {
-            int total = S - 7;
+            int total = Convert.ToInt32(S / 7);
             return total;
         }
 
