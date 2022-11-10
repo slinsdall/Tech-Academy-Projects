@@ -20,7 +20,7 @@ namespace MainMethod
         }
         public int multiply(string S)
         {
-            int total = Convert.ToInt32(S / 7);
+            int total = Convert.ToInt32(S) / 7;
             return total;
         }
 

@@ -21,13 +21,13 @@ namespace MainMethod
             Console.WriteLine("Please type a decimal number: ");
             decimal selection = Convert.ToDecimal(Console.ReadLine());
 
-            Console.WriteLine(method.add(input));
+            Console.WriteLine(method.multiply()(input));
             Console.ReadLine();
 
             Console.WriteLine("Please type a number by the word: ");
             int typed = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(method.subtract(typed));
+            Console.WriteLine(method.multiply(typed));
             Console.ReadLine();
 
 
