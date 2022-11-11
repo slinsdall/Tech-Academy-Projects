@@ -8,11 +8,11 @@ namespace MethodSubmission
 {
     class Method
     {
-        public  int Math(int a, int b)
+        public  int Math(int a, int b=12)
         {
-            int equation = a + 7;
-            int optional = b * 26;
+            int equation = a + b;
             return equation;
+            
         }
         
     }
