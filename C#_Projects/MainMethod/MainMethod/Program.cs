@@ -21,7 +21,7 @@ namespace MainMethod
             Console.WriteLine("Please type a decimal number: ");
             decimal selection = Convert.ToDecimal(Console.ReadLine());
 
-            Console.WriteLine(method.multiply()(input));
+            Console.WriteLine(method.multiply(selection));
             Console.ReadLine();
 
             Console.WriteLine("Please type a number by the word: ");
