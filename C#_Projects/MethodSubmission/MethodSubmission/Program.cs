@@ -22,14 +22,8 @@ namespace MethodSubmission
                 Console.WriteLine("You do not need to enter a second number. if you would like to add a second number type here: ");
                 int num2 = Convert.ToInt32(Console.ReadLine());
 
-                
-               
-
-            
-                Console.WriteLine("If you would like to add a second number type here: ");
-                int num = Convert.ToInt32(Console.ReadLine());
-
-                Console.WriteLine(method.Math(num2));
+              
+                Console.WriteLine(method.Math(num2, input));
                 
 
             }
