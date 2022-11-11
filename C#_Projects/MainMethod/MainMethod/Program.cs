@@ -25,7 +25,7 @@ namespace MainMethod
             Console.ReadLine();
 
             Console.WriteLine("Please type a number by the word: ");
-            int typed = Convert.ToInt32(Console.ReadLine());
+            string typed = Console.ReadLine();
 
             Console.WriteLine(method.multiply(typed));
             Console.ReadLine();

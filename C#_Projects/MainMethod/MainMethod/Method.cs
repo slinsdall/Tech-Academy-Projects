@@ -13,7 +13,7 @@ namespace MainMethod
             int result = E * 13;
             return result;
         }
-        public int multiply(Double D)
+        public int multiply(decimal D)
         {
             int result = Convert.ToInt32(D + 4);
             return result;
