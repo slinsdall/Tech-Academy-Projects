@@ -13,17 +13,23 @@ namespace MethodSubmission
 
             Method method = new Method();
 
+            Console.WriteLine("Please put in 2 numbers one at a time,\n Please type the first number: ");
+            int input = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("You do not need to enter a second number. if you would like to add a second number type here: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(method.Math(input));
+            Console.ReadLine();
+
             try
             {
+                Console.WriteLine("If you would like to add a second number type here: ");
+                int secondnum = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Please put in 2 numbers one at a time,\n Please type the first number: ");
-                int input = Convert.ToInt32(Console.ReadLine());
-
-                Console.WriteLine("You do not need to enter a second number. if you would like to add a second number type here: ");
-                int num2 = Convert.ToInt32(Console.ReadLine());
-
-                Console.WriteLine(method.Math(input));
+                Console.WriteLine(method.Math(secondnum));
                 Console.ReadLine();
+
             }
             catch (FormatException ex)
             {
