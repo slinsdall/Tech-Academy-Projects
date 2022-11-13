@@ -1,0 +1,7 @@
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodsAndObjects\MethodsAndObjects\bin\Debug\MethodsAndObjects.exe.config
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodsAndObjects\MethodsAndObjects\bin\Debug\MethodsAndObjects.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodsAndObjects\MethodsAndObjects\bin\Debug\MethodsAndObjects.pdb
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.csproj.AssemblyReference.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.csproj.CoreCompileInputs.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.pdb
