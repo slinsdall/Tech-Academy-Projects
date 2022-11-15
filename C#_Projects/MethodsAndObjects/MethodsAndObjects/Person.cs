@@ -14,11 +14,9 @@ namespace MethodsAndObjects
 
         public void  SayName()
         {
-            foreach (string person in Person)
-            {
+         
                 Console.WriteLine(FirstName + LastName);
-                
-            }
+           
         }
     }
 }
