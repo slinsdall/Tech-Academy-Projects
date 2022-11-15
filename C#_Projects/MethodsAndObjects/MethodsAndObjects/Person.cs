@@ -8,15 +8,15 @@ namespace MethodsAndObjects
 {
     public class Person
     {
-        List<string> Persons { get; set; }
+       
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
         public void  SayName()
         {
-            foreach (string person in Persons)
+            foreach (string person in Person)
             {
-                Console.WriteLine(person);
+                Console.WriteLine(FirstName + LastName);
                 
             }
         }

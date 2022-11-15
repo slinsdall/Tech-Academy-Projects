@@ -11,10 +11,8 @@ namespace MethodsAndObjects
         public static void Main(string[] args)
         {
             //Person person = new Person();
-            Employee employee = new Employee();
-            employee.Persons = new List<string>() { "Sample", "Student" };
+            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
             employee.SayName();
-            employee.ID();
             Console.ReadLine();
             
             
