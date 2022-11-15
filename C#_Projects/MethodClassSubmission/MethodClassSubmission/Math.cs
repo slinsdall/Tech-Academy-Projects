@@ -6,18 +6,13 @@ using System.Threading.Tasks;
 
 namespace MethodClassSubmission
 {
-    class Program
+    class Math
     {
-        static void Main(string[] args)
+        public void numbs(int L, int G)
         {
-            Math math = new Math();
-
-            Console.WriteLine(math.F);
-            Console.ReadLine();
-
-            Console.WriteLine(math);
+            int F = 4 * 12;
+            Console.WriteLine(G);
             Console.ReadLine();
         }
-        
     }
 }
