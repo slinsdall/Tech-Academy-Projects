@@ -8,9 +8,11 @@ namespace AbstractClassSubmission
 {
     public class Employee : Person
     {
-        public override void SayName()
+        public virtual string SayName()
         {
-            
+            Console.WriteLine(firstName + lastName);
+
         }
+        
     }
 }

@@ -11,10 +11,7 @@ namespace AbstractClassSubmission
         public string firstName;
         public string lastName;
 
-        public  virtual string SayName()
-        {
-            Console.WriteLine(firstName + lastName);
-            
-        }
+        public override void SayName();
+       
     }
 }
