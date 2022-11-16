@@ -8,7 +8,7 @@ namespace ClassSubmission
 {
     public static class Static
     {
-        public int subtract(int S)
+        public  static int subtract(int S)
         {
             int results = S - 5;
             return results;

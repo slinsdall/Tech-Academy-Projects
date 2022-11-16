@@ -23,12 +23,11 @@ namespace ClassSubmission
             return result;
         }
        
-        public static int ADD(int L, out int add)
+        public static int ADD(int L, out int Add)
         {
-            add = 7;
+            Add = 7;
             int total = L + 9;
-            total = add(out add, out L, 5);
-            
+         
             return total;
         }
         
