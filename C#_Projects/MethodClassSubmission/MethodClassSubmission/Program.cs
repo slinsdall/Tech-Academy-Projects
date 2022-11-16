@@ -12,8 +12,7 @@ namespace MethodClassSubmission
         {
             Math math = new Math();
 
-            Console.WriteLine(math.F);
-            Console.ReadLine();
+            math.numbs(L, G);
 
             Console.WriteLine(math);
             Console.ReadLine();
