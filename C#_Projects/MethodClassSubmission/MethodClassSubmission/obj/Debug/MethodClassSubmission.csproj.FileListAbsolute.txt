@@ -1,0 +1,7 @@
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodClassSubmission\MethodClassSubmission\obj\Debug\MethodClassSubmission.csproj.AssemblyReference.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodClassSubmission\MethodClassSubmission\obj\Debug\MethodClassSubmission.csproj.CoreCompileInputs.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodClassSubmission\MethodClassSubmission\bin\Debug\MethodClassSubmission.exe.config
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodClassSubmission\MethodClassSubmission\bin\Debug\MethodClassSubmission.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodClassSubmission\MethodClassSubmission\bin\Debug\MethodClassSubmission.pdb
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodClassSubmission\MethodClassSubmission\obj\Debug\MethodClassSubmission.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\MethodClassSubmission\MethodClassSubmission\obj\Debug\MethodClassSubmission.pdb

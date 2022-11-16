@@ -12,9 +12,9 @@ namespace MethodClassSubmission
         {
             Math math = new Math();
 
-            math.numbs(L, G);
+            
+            math.numbs(7, 12);
 
-            Console.WriteLine(math);
             Console.ReadLine();
         }
         

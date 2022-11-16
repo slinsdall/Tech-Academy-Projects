@@ -8,7 +8,7 @@ namespace MethodClassSubmission
 {
     class Math
     {
-        public void numbs(int L, int G)
+        public void numbs(int L = 7, int G = 12)
         {
             int F = 4 * 12;
             Console.WriteLine(G);
