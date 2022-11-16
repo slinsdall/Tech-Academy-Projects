@@ -11,7 +11,7 @@ namespace PolymorphismSumbission
         static void Main(string[] args)
         {
             Employee employee = new Employee();
-            employee.Person = new List<String>() { "Sarah", "Kirsten", "Nicole" };
+            employee.Persons = new List<String>() { "Sarah", "Kirsten", "Nicole" };
 
         }
     }

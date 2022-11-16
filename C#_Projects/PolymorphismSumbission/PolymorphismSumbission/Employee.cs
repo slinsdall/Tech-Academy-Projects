@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace PolymorphismSumbission
 {
-     public class Employee : IQuittable 
+     public class Employee : Person, IQuittable 
     {
-        public List<string> Person { get; set; }
+        public List<string> Persons { get; set; }
 
         public void Quit()
         {
