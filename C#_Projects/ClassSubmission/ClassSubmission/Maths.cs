@@ -17,15 +17,15 @@ namespace ClassSubmission
             
         }
 
-        public int division(int H)
+        public int division(int H, int J)
         {
-            int result = H * 5;
+            int result = H * J;
             return result;
         }
        
         public static int ADD(int L, out int add)
         {
-            
+            add = 7;
             int total = L + 9;
             total = add(out add, out L, 5);
             

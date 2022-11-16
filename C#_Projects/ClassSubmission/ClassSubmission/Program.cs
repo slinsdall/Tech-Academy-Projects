@@ -15,7 +15,7 @@ namespace ClassSubmission
             Console.WriteLine("Please enter a number: ");
             int input = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(math.division(input));
+            math.division(input);
             Console.ReadLine();
         }
     }
