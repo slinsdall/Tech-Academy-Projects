@@ -1,0 +1,2 @@
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\OperatorsSubmission\OperatorsSubmission\obj\Debug\OperatorsSubmission.csproj.AssemblyReference.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\OperatorsSubmission\OperatorsSubmission\obj\Debug\OperatorsSubmission.csproj.CoreCompileInputs.cache
