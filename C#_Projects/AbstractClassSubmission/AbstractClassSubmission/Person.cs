@@ -11,10 +11,8 @@ namespace AbstractClassSubmission
         public string firstName;
         public string lastName;
 
-        public virtual void SayName()
-        {
-
-        }
+        public abstract void SayName();
+        
        
     }
 }
