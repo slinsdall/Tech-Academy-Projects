@@ -14,7 +14,7 @@ namespace ClassSubmission
         public void division(int E)
         {
             int equation = E / 2;
-            
+            Console.WriteLine(equation);
         }
 
         public int division(int H, int J)
