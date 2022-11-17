@@ -15,6 +15,8 @@ namespace MethodClassSubmission
             
             math.numbs(7, 12);
 
+            math.numbs(L: 7, G: 6);
+
             Console.ReadLine();
         }
         

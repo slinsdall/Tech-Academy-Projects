@@ -10,7 +10,8 @@ namespace MethodClassSubmission
     {
         public void numbs(int L = 7, int G = 12)
         {
-            int F = 4 * 12;
+            
+            int result = L * 9;
             Console.WriteLine(G);
             Console.ReadLine();
         }
