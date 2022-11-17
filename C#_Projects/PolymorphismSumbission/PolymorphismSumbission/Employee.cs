@@ -12,7 +12,8 @@ namespace PolymorphismSumbission
 
         public void Quit()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Quit");
+            Console.ReadLine();
         }
     }
 }

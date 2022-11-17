@@ -12,6 +12,9 @@ namespace PolymorphismSumbission
         {
             Employee employee = new Employee();
             employee.Persons = new List<String>() { "Sarah", "Kirsten", "Nicole" };
+            IQuittable quittable = new Employee();
+
+            quittable.Quit();
 
         }
     }

@@ -8,6 +8,6 @@ namespace PolymorphismSumbission
 {
     interface IQuittable
     {
-        void Quit(Person person);
+        void Quit();
     }
 }

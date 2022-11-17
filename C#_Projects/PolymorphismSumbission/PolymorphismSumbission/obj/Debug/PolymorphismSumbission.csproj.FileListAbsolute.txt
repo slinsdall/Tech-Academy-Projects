@@ -1,2 +1,7 @@
 C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PolymorphismSumbission\PolymorphismSumbission\obj\Debug\PolymorphismSumbission.csproj.AssemblyReference.cache
 C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PolymorphismSumbission\PolymorphismSumbission\obj\Debug\PolymorphismSumbission.csproj.CoreCompileInputs.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PolymorphismSumbission\PolymorphismSumbission\bin\Debug\PolymorphismSumbission.exe.config
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PolymorphismSumbission\PolymorphismSumbission\bin\Debug\PolymorphismSumbission.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PolymorphismSumbission\PolymorphismSumbission\bin\Debug\PolymorphismSumbission.pdb
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PolymorphismSumbission\PolymorphismSumbission\obj\Debug\PolymorphismSumbission.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\PolymorphismSumbission\PolymorphismSumbission\obj\Debug\PolymorphismSumbission.pdb
