@@ -12,15 +12,17 @@ namespace OperatorsSubmission
         public string LastName { get; set; }
         public string ID { get; set; }
 
+        
+
         public static Employee operator==(Employee employee)
         {
             
-            return employee;
+            return true;
         }
         public static  Employee operator!=(Employee employee)
         {
-            
-            return employee;
+
+            return false;
         }
 
 

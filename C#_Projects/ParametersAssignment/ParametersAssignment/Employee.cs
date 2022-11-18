@@ -8,7 +8,13 @@ namespace ParametersAssignment
 {
     public class Employee<T>
     {
-        List<string> things = new List<string>() { "Sarah", Kirs}
+        List<string> things = new List<string>() { "Sarah", "Kirsten" };
+        int i = 7;
+        int k = 63;
+
+        
+
+        
         
     }
 }

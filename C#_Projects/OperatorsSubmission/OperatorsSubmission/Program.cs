@@ -11,9 +11,7 @@ namespace OperatorsSubmission
         static void Main(string[] args)
         {
             Employee employee = new Employee();
-            Console.WriteLine(employee == employee);
-            Console.WriteLine(employee != employee);
-            Console.ReadLine();
+            
 
         }
     }
