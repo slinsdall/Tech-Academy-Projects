@@ -14,12 +14,12 @@ namespace OperatorsSubmission
 
         public static Employee operator==(Employee employee)
         {
-            employee.Add();
+            
             return employee;
         }
-        public static Employee operator!=(Employee employee)
+        public static  Employee operator!=(Employee employee)
         {
-            employee.Add();
+            
             return employee;
         }
 
