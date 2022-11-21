@@ -10,19 +10,19 @@ namespace OperatorsSubmission
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string ID { get; set; }
-
+        public int ID { get; set; }
+        
         
 
-        public static Employee operator==(Employee employee)
+        public static bool operator==(Employee employee, Employee employee2)
         {
             
-            return true;
+            return employee.ID == employee2.ID;
         }
-        public static  Employee operator!=(Employee employee)
+        public static  bool operator!=(Employee employee, Employee employee2)
         {
 
-            return false;
+            return employee.ID != employee2.ID;
         }
 
 
