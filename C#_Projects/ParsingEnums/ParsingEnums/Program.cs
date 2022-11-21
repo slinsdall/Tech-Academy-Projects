@@ -17,8 +17,8 @@ namespace ParsingEnums
             string input = Convert.ToString(Console.ReadLine());
             try//Wrap the above statement in a try/catch block and have it print "Please enter an actual day of the week.” to the console if an error occurs.
             {
-                
-               
+                Days.DayOfTheWeek dayOfWeek = (Days.DayOfTheWeek)Enum.Parse(typeof(Days.DayOfTheWeek), input);
+
             }
             catch(Exception ex)
             {
