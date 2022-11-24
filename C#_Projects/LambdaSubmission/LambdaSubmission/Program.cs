@@ -38,7 +38,7 @@ namespace LambdaSubmission
                 Console.ReadLine();
             }
             //Using a lambda expression, make a list of all employees with an Id number greater than 5
-            List<Employee> numbID = newList.Where(x => x.ID < 5).ToList();
+            List<Employee> numbID = newList.Where(x => x.ID > 5).ToList();
             Console.WriteLine(numbID);
             Console.ReadLine();
 
