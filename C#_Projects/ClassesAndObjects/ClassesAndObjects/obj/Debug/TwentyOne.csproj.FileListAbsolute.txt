@@ -1,0 +1,7 @@
+C:\Users\slins\OneDrive\Desktop\Basic_C#_Programs\ClassesAndObjects\ClassesAndObjects\bin\Debug\ClassesAndObjects.exe.config
+C:\Users\slins\OneDrive\Desktop\Basic_C#_Programs\ClassesAndObjects\ClassesAndObjects\bin\Debug\ClassesAndObjects.exe
+C:\Users\slins\OneDrive\Desktop\Basic_C#_Programs\ClassesAndObjects\ClassesAndObjects\bin\Debug\ClassesAndObjects.pdb
+C:\Users\slins\OneDrive\Desktop\Basic_C#_Programs\ClassesAndObjects\ClassesAndObjects\obj\Debug\TwentyOne.csproj.AssemblyReference.cache
+C:\Users\slins\OneDrive\Desktop\Basic_C#_Programs\ClassesAndObjects\ClassesAndObjects\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\slins\OneDrive\Desktop\Basic_C#_Programs\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.exe
+C:\Users\slins\OneDrive\Desktop\Basic_C#_Programs\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.pdb

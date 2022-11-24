@@ -1,0 +1,2 @@
+C:\Users\slins\OneDrive\Desktop\Basic_C#_Programs\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.csproj.AssemblyReference.cache
+C:\Users\slins\OneDrive\Desktop\Basic_C#_Programs\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.csproj.CoreCompileInputs.cache
