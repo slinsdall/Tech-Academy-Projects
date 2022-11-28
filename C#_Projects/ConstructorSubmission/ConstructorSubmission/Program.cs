@@ -17,7 +17,10 @@ namespace ConstructorSubmission
             var LastName = "Linsdall";
 
             //Chain two constructors together
-           
+           public User(string FirstName, String LastName) : this()
+            {
+
+            }
         }
 
 
