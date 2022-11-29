@@ -1,7 +1,7 @@
 C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\TryCatchSubmission\TryCatchSubmission\bin\Debug\TryCatchSubmission.exe.config
 C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\TryCatchSubmission\TryCatchSubmission\bin\Debug\TryCatchSubmission.exe
 C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\TryCatchSubmission\TryCatchSubmission\bin\Debug\TryCatchSubmission.pdb
-C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\TryCatchSubmission\TryCatchSubmission\obj\Debug\TryCatchSubmission.csproj.AssemblyReference.cache
 C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\TryCatchSubmission\TryCatchSubmission\obj\Debug\TryCatchSubmission.csproj.CoreCompileInputs.cache
 C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\TryCatchSubmission\TryCatchSubmission\obj\Debug\TryCatchSubmission.exe
 C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\TryCatchSubmission\TryCatchSubmission\obj\Debug\TryCatchSubmission.pdb
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\TryCatchSubmission\TryCatchSubmission\obj\Debug\TryCatchSubmission.csproj.AssemblyReference.cache
