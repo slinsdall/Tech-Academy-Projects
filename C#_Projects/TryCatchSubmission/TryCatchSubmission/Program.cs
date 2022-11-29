@@ -26,13 +26,13 @@ namespace TryCatchSubmission
                     Console.WriteLine(now.Year - userAge);
                     Console.ReadLine();
                 }
-                catch (FormatException)
-                {
+                catch (FormatException)//Display appropriate error messages if the user enters zero or negative numbers.
+            {
                     Console.WriteLine("Please do not enter zero or negative numbers.");
                     return;
                 }
-                catch (Exception ex)
-                    {
+                catch (Exception ex)//Display a general message if an exception was caused by anything else.
+            {
                         Console.WriteLine(ex.Message);
                         return;
                     }
