@@ -11,16 +11,12 @@ namespace ConstructorSubmission
     {
         static void Main(string[] args)
         {
-            //Create a const variable.
-            const string FirstName = "Sarah";
-            //Create a variable using the keyword “var.”
-            var LastName = "Linsdall";
+            User user = new User();
 
-            //Chain two constructors together
-           public User(string FirstName, String LastName) : this()
-            {
 
-            }
+            
+
+
         }
 
 
