@@ -8,11 +8,7 @@ namespace ConstructorSubmission
 {
     public class User
     {
-        //Create a const variable.
-        const string FirstName = "Sarah";
-        //Create a variable using the keyword “var.”
-        var FullName = "Linsdall";
-
+        
         //Chain two constructors together
         public string firstName;
         public string fullName;
@@ -21,6 +17,10 @@ namespace ConstructorSubmission
         {
             this.firstName = firstName;
             this.fullName = fullName;
+        }
+        public User(string firstName) :this(firstName, "Unknown")
+        {
+
         }
 
     }

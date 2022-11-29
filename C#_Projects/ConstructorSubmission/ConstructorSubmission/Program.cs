@@ -11,15 +11,19 @@ namespace ConstructorSubmission
     {
         static void Main(string[] args)
         {
-            User user = new User();
-
 
             
+            //Create a const variable.
+            const string FirstName = "Sarah";
+            //Create a variable using the keyword “var.”
+            var FullName = "Linsdall";
 
+            User user = new User(FirstName, FullName);
+            User user2 = new User("Kirsten");
 
         }
 
 
-        
+
     }
 }
