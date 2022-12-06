@@ -27,7 +27,7 @@ namespace NewsLetterAppMVC.Controllers
             }
             else
             {
-                using(NewsletterEntities db = new NewsletterEntities()) 
+                using(NewsletterEntities1 db = new NewsletterEntities1()) 
                 {
                     var signup = new SignUp();
                     signup.FirstName = firstName;

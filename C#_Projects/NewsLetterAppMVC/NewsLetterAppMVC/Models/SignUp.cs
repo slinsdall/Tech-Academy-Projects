@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NewsLetterAppMVC.Models 
+namespace NewsLetterAppMVC.Models
 {
     using System;
     using System.Collections.Generic;
