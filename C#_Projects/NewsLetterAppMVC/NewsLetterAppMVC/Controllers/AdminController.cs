@@ -20,7 +20,7 @@ namespace NewsLetterAppMVC.Controllers
                     signupVm.EmailAddress = signup.EmailAddress;
                     signupVMs.Add(signupVm);
                 }
-
+                
                 return View(signupVMs);
             }
         }
