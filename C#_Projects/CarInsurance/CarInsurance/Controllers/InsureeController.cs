@@ -43,14 +43,13 @@ namespace CarInsurance.Controllers
                 using (InsuranceEntities db = new InsuranceEntities())
                 {
                     Insuree insuree = db.Insurees.Find(Id);
-                    var getquote = new getQuote();
-                    getquote.Id = Id;
-                    getquote.carYear = CarYear;
-                    getquote.carMake = CarMake;
-                    getquote.speedingTicket = SpeedingTicket;
-                    getquote.dUI = DUI;
-                    getquote.coverageType = CoverageType;
-                    getquote.dateOfBirth = DateOfBirth;
+                    int id = insuree.Id;
+                    int carYear = insuree.CarYear;
+                    string carMake = insuree.CarMake;
+                    int speedingTicket = insuree.SpeedingTicket;
+                    bool dUI = insuree.DUI;
+                    bool coverageType = insuree.CoverageType;
+                    DateTime dateOfBirth = insuree.DateOfBirth;
                     int now = DateTime.Now.Year;
 
 
