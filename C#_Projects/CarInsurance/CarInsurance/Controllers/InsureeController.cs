@@ -52,6 +52,7 @@ namespace CarInsurance.Controllers
             if (ModelState.IsValid)
             {
                 db.Insurees.Add(insuree);
+                GetQuote(insuree.Id);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -124,15 +125,15 @@ namespace CarInsurance.Controllers
             }
             base.Dispose(disposing);
         }
-        public ActionResult GetQuote(int getQuote)
+        public ActionResult GetQuote(int Id)
         {
             
-            Insuree insuree = db.Insurees.Find(id);
+            Insuree insuree = db.Insurees.Find(Id);
             int id = insuree.Id;
             int carYear = insuree.CarYear;
             string carMake = insuree.CarMake;
             string carModel = insuree.CarModel;
-            int speedingTicket = insuree.SpeedingTicket;
+            int speedingTickets = insuree.SpeedingTickets;
             bool dUI = insuree.DUI;
             bool coverageType = insuree.CoverageType;
             DateTime dateOfBirth = insuree.DateOfBirth;
@@ -168,7 +169,7 @@ namespace CarInsurance.Controllers
             {
                 baseQuote += 25;
             }
-            if(speedingTicket == 1)
+            if(speedingTickets == 1)
             {
                 baseQuote += 10;
             }
@@ -181,6 +182,7 @@ namespace CarInsurance.Controllers
             {
                 int fullCoverage = 50 / 100 * 50;
             }
+            return RedirectToAction("Index");
             db.SaveChanges();
 
             
