@@ -140,12 +140,12 @@ namespace CarInsurance.Controllers
             int Age = dateOfBirth.Year;
             int now = DateTime.Now.Year;
             int age = now - Age;
-            int baseQuote = 50;
+            decimal baseQuote = 50;
             if (age <= 18)
             {
                 baseQuote += 100;
             }
-            if (age == 19 && age <= 25)
+            if (age >= 19 && age <= 25)
             {
                 baseQuote += 50;
             }
@@ -169,24 +169,30 @@ namespace CarInsurance.Controllers
             {
                 baseQuote += 25;
             }
-            if(speedingTickets == 1)
+            if(speedingTickets > 0)
             {
                 baseQuote += 10;
             }
             if(dUI == true)
             {
-                int percentage = 25 / 100 * 50;
+                baseQuote *= 1.25m;
                 
             }
             if(coverageType == true)
             {
-                int fullCoverage = 50 / 100 * 50;
+                baseQuote *= 1.5m;
             }
+            insuree.Quote = baseQuote;
+            db.SaveChanges();
             return RedirectToAction("Index");
             db.Insurees.Add(insuree);
-            db.SaveChanges();
+            
 
             
+        }
+        public ActionResult Admin()
+        {
+            return View(db.Insurees.ToList());
         }
 
 
