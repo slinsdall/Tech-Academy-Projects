@@ -127,7 +127,7 @@ namespace CarInsurance.Controllers
         }
         public ActionResult GetQuote(int Id)
         {
-            
+            var insurees = new Insuree();
             Insuree insuree = db.Insurees.Find(Id);
             int id = insuree.Id;
             int carYear = insuree.CarYear;
@@ -183,6 +183,7 @@ namespace CarInsurance.Controllers
                 int fullCoverage = 50 / 100 * 50;
             }
             return RedirectToAction("Index");
+            db.Insurees.Add(insuree);
             db.SaveChanges();
 
             

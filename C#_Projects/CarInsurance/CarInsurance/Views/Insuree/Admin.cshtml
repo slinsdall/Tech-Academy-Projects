@@ -1,7 +1,37 @@
-﻿
-@{
-    ViewBag.Title = "Admin";
-}
+﻿@using CarInsurance.Models
+@using CarInsurance.Controllers
+@model List<Insuree>
 
-<h2>Admin</h2>
+<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+        <div class="card-header text-center">
+            <h5 class="m-0">Quotes</h5>
+        </div>
+        <div class="card-body">
+            @foreach (var insurees in Model)
+            {
+                
+                    <input type="hidden" name="Id" value="@insurees.Id" />
+                    <div class="row mb-3">
+                        <div class="col-2">
+                            @insurees.FirstName
+                        </div>
+                        <div class="col">
+                            @insurees.LastName
+                        </div>
+                        <div class="col-4">
+                            @insurees.EmailAddress
+                        </div>
+                        <div class="col-lg-5">
+                            @insurees.Quote
+                        </div>
 
+                    </div>
+                   
+                
+
+            }
+
+        </div>
+    </div>
+</div>
