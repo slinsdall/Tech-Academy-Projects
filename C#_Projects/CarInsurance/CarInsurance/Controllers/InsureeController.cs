@@ -36,25 +36,9 @@ namespace CarInsurance.Controllers
         }
 
         // GET: Insuree/Create
-        public ActionResult Create(int Id)
+        public ActionResult Create()
         {
-            public int getQuote() 
-            {
-                using (InsuranceEntities db = new InsuranceEntities())
-                {
-                    Insuree insuree = db.Insurees.Find(Id);
-                    int id = insuree.Id;
-                    int carYear = insuree.CarYear;
-                    string carMake = insuree.CarMake;
-                    int speedingTicket = insuree.SpeedingTicket;
-                    bool dUI = insuree.DUI;
-                    bool coverageType = insuree.CoverageType;
-                    DateTime dateOfBirth = insuree.DateOfBirth;
-                    int now = DateTime.Now.Year;
-
-
-                }
-            }
+            return View();
            
         }
 
@@ -140,10 +124,70 @@ namespace CarInsurance.Controllers
             }
             base.Dispose(disposing);
         }
+        public ActionResult GetQuote(int getQuote)
+        {
+            
+            Insuree insuree = db.Insurees.Find(id);
+            int id = insuree.Id;
+            int carYear = insuree.CarYear;
+            string carMake = insuree.CarMake;
+            string carModel = insuree.CarModel;
+            int speedingTicket = insuree.SpeedingTicket;
+            bool dUI = insuree.DUI;
+            bool coverageType = insuree.CoverageType;
+            DateTime dateOfBirth = insuree.DateOfBirth;
+            int Age = dateOfBirth.Year;
+            int now = DateTime.Now.Year;
+            int age = now - Age;
+            int baseQuote = 50;
+            if (age <= 18)
+            {
+                baseQuote += 100;
+            }
+            if (age == 19 && age <= 25)
+            {
+                baseQuote += 50;
+            }
+            if (age >= 26)
+            {
+                baseQuote += 25;
+            }
+            if(carYear <= 2000)
+            {
+                baseQuote += 25;
+            }
+            if(carYear >= 2015)
+            {
+                baseQuote += 25;
+            }
+            if(carMake == "Porsche")
+            {
+                baseQuote += 25;
+            }
+            if(carMake == "Porsche" && carModel == "911 Carrera")
+            {
+                baseQuote += 25;
+            }
+            if(speedingTicket == 1)
+            {
+                baseQuote += 10;
+            }
+            if(dUI == true)
+            {
+                int percentage = 25 / 100 * 50;
+                
+            }
+            if(coverageType == true)
+            {
+                int fullCoverage = 50 / 100 * 50;
+            }
+            db.SaveChanges();
 
-
-        
-
+            
         }
+
+
+
+
     }
-}
+    }
