@@ -44,12 +44,13 @@ namespace CarInsurance.Controllers
                 {
                     Insuree insuree = db.Insurees.Find(Id);
                     var getquote = new getQuote();
-                    getquote.CarYear = carYear;
-                    getquote.CarMake = carMake;
-                    getquote.SpeedingTicket = speedingTicket;
-                    getquote.DUI = DUI;
-                    getquote.CoverageType = coverageType;
-                    getquote.DateOfBirth = DateOfBirth;
+                    getquote.Id = Id;
+                    getquote.carYear = CarYear;
+                    getquote.carMake = CarMake;
+                    getquote.speedingTicket = SpeedingTicket;
+                    getquote.dUI = DUI;
+                    getquote.coverageType = CoverageType;
+                    getquote.dateOfBirth = DateOfBirth;
                     int now = DateTime.Now.Year;
 
 
