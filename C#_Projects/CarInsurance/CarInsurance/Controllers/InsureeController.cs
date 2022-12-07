@@ -36,9 +36,26 @@ namespace CarInsurance.Controllers
         }
 
         // GET: Insuree/Create
-        public ActionResult Create()
+        public ActionResult Create(int Id)
         {
-            return View();
+            public int getQuote() 
+            {
+                using (InsuranceEntities db = new InsuranceEntities())
+                {
+                    Insuree insuree = db.Insurees.Find(Id);
+                    var getquote = new getQuote();
+                    getquote.CarYear = carYear;
+                    getquote.CarMake = carMake;
+                    getquote.SpeedingTicket = speedingTicket;
+                    getquote.DUI = DUI;
+                    getquote.CoverageType = coverageType;
+                    getquote.DateOfBirth = DateOfBirth;
+                    int now = DateTime.Now.Year;
+
+
+                }
+            }
+           
         }
 
         // POST: Insuree/Create
@@ -125,24 +142,7 @@ namespace CarInsurance.Controllers
         }
 
 
-        public ActionResult Quote(int i)
-        {
-            public int User { get; set; }
-            int Baseq = 50;
-            
-
-            if (User < 18)
-            {
-                int young = Baseq + 100;
-            }
-            if (User == 19 || > 25)
-            {
-                int youngAdult = Baseq + 50;
-            }
-            if (User < 26)
-            {
-            int adult = Baseq + 25;
-            }
+        
 
         }
     }
