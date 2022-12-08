@@ -1,0 +1,12 @@
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\bin\Debug\FinalChallengeSubmission.exe.config
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\bin\Debug\FinalChallengeSubmission.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\bin\Debug\FinalChallengeSubmission.pdb
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\bin\Debug\EntityFramework.dll
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\bin\Debug\EntityFramework.xml
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\obj\Debug\FinalChallengeSubmission.csproj.AssemblyReference.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\obj\Debug\FinalChallengeSubmission.csproj.CoreCompileInputs.cache
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\obj\Debug\FinalChallengeSubmission.csproj.CopyComplete
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\obj\Debug\FinalChallengeSubmission.exe
+C:\Users\slins\OneDrive\Documents\GitHub\Tech-Academy-Projects\C#_Projects\FinalChallengeSubmission\FinalChallengeSubmission\obj\Debug\FinalChallengeSubmission.pdb
