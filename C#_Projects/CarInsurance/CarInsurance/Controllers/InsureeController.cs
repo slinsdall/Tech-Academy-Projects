@@ -171,7 +171,8 @@ namespace CarInsurance.Controllers
             }
             if(speedingTickets > 0)
             {
-                baseQuote += 10;
+                int tTickets = speedingTickets * 10;
+                decimal monthly = tTickets + baseQuote;
             }
             if(dUI == true)
             {
